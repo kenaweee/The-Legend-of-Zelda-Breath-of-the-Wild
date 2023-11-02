@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5914281183408269799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5914281183408269817}
+  - component: {fileID: 5914281183408269798}
+  - component: {fileID: 5612528201639913788}
+  m_Layer: 0
+  m_Name: controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5914281183408269817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5914281183408269799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.49421716, y: 2.3235369, z: 2.1577337}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5914281183408269798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5914281183408269799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6499b66d3c428498990d1dc80997af0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RuneAbility: {fileID: 0}
+  cam: {fileID: 0}
+  attackPoint: {fileID: 0}
+  objectToThrow: {fileID: 999329322834689624, guid: e2b8280197af84c2c8a58fe424befe40, type: 3}
+  throwCooldown: 0.25
+  throwForce: 10
+  throwUpwardForce: 7.5
+  power: 10
+  radius: 5
+  upforce: 1
+  fakebomb: {fileID: 4296317240307346778, guid: c70f8c5816f6e48658a7743f531ce5cb, type: 3}
+  Cube: {fileID: 6831294837976822294, guid: 43bb363bbc11f9b409c57ea3320b3c8b, type: 3}
+  shrinecube: {fileID: 0}
+--- !u!114 &5612528201639913788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5914281183408269799}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbaa39b98f1f9244ba9d36644715dee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cube: {fileID: 6831294837976822294, guid: 43bb363bbc11f9b409c57ea3320b3c8b, type: 3}
